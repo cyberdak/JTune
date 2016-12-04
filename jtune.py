@@ -1872,11 +1872,11 @@ if __name__ == "__main__":
 
                 if not proc_details.get("print_gc_date_stamps", False):
                     config_error = True
-                    logger.error("You need to include the '-XX:PrintGCDateStamps' option to the JVM for JTune to work correctly.")
+                    logger.error("You need to include the '-XX:+PrintGCDateStamps' option to the JVM for JTune to work correctly.")
 
                 if not proc_details.get("print_gc_details", False):
                     config_error = True
-                    logger.error("You need to include the '-XX:PrintGCDetails' option to the JVM for JTune to work correctly.")
+                    logger.error("You need to include the '-XX:+PrintGCDetails' option to the JVM for JTune to work correctly.")
 
                 if not proc_details.get("print_tenuring_distribution", False):
                     config_error = True
