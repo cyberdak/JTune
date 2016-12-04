@@ -1,5 +1,7 @@
 # JTune - a high precision Java CMS optimizer
 
+fork from linkedin,since they give up this project(0 commit in a year),I start work on this fork.
+
 Overview
 --------
 
